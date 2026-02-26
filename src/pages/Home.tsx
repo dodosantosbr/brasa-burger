@@ -3,7 +3,6 @@ import { motion } from "framer-motion";
 import { Search } from "lucide-react";
 import { products } from "../data/products";
 import { ProductCard } from "../components/ProductCard";
-
 import { ProductCardSkeleton } from "../components/ProductCardSkeleton";
 
 export const Home = () => {
