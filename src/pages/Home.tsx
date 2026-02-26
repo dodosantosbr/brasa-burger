@@ -5,7 +5,6 @@ import { products } from "../data/products";
 import { ProductCard } from "../components/ProductCard";
 
 import { ProductCardSkeleton } from "../components/ProductCardSkeleton";
-import { span } from "framer-motion/client";
 
 export const Home = () => {
   const categories = ["Todos", ...new Set(products.map((p) => p.category))];
